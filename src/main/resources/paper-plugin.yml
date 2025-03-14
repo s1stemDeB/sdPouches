@@ -1,5 +1,6 @@
 name: sdPouches
 version: '1.0-SNAPSHOT'
-main: ru.s1stemdeb.sdPouches.SdPouches
+main: ru.s1stemdeb.sdPouches.Plugin
 api-version: '1.19'
-authors: [ systemdev_ ]
+authors: [ s1stemDeB ]
+folia-supported: true
