@@ -1,0 +1,5 @@
+name: sdPouches
+version: '1.0-SNAPSHOT'
+main: ru.s1stemdeb.sdPouches.SdPouches
+api-version: '1.19'
+authors: [ systemdev_ ]
