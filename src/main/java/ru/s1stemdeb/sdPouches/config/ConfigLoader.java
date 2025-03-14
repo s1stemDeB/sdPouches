@@ -4,7 +4,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
+import net.kyori.adventure.text.Component;
 import ru.s1stemdeb.sdPouches.Plugin;
+import ru.s1stemdeb.sdPouches.config.adaopters.ComponentAdapter;
 
 import java.io.File;
 import java.io.IOException;
@@ -54,6 +56,7 @@ public class ConfigLoader {
     public Gson Gson() {
         return new GsonBuilder()
                 .excludeFieldsWithModifiers(Modifier.TRANSIENT, Modifier.STATIC)
+                .registerTypeAdapter(Component.class, new ComponentAdapter())
                 .create();
     }
 

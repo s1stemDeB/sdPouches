@@ -1,0 +1,42 @@
+{
+  "id": "example",
+  "pouchItem": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "name": "Example pouch",
+    "lore": [],
+    "custommodeldata": 0
+  },
+  "inventory":{
+    "size": 54,
+    "decorativeItems": {
+      "blue_glass": {
+        "material": "BLUE_STAINED_GLASS_PANE",
+        "name": "",
+        "lore": [],
+        "custommodeldata": 0,
+        "slots": [0, 1, 2, 3, 4, 5, 6, 7, 8, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+      },
+      "green_glass": {
+        "material": "GREEN_STAINED_GLASS_PANE",
+        "name": "",
+        "lore": [],
+        "custommodeldata": 0,
+        "slots": [9, 17, 18, 26, 27, 35, 36, 44]
+      }
+    }
+  },
+  "items": {
+    "cobblestone": {
+      "material": "COBBLESTONE",
+      "maxAmount": 256
+    },
+    "granite": {
+      "material": "GRANITE",
+      "maxAmount": 256
+    },
+    "diorite": {
+      "material": "DIORITE",
+      "maxAmount": 256
+    }
+  }
+}
